@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ChromeTest">
+  <parameter name="BrowserType" value="Chrome"/>
+  <parameter name="ApplicationURL" value="http://www.google.com"/>
+    <classes>
+      <class name="testngdemo.LoginOrangeHRM"/>
+    </classes>
+  </test>
+  
+  <test name="EdgeTest">
+  <parameter name="BrowserType" value="Edge"/>
+  <parameter name="ApplicationURL" value="http://www.google.com"/>
+    <classes>
+      <class name="testngdemo.LoginOrangeHRM"/>
+    </classes>
+  </test>
+</suite>
